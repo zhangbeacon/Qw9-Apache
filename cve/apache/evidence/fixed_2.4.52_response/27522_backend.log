@@ -1,7 +1,0 @@
-malicious uwsgi backend listening on 127.0.0.1:8094
-11:16:13 uwsgi backend: 127.0.0.1:58484 PATH_INFO=/control modifier=0/0 env_keys=26
-11:16:13 uwsgi backend: 127.0.0.1:58486 PATH_INFO=/control modifier=0/0 env_keys=25
-11:16:13 uwsgi backend: 127.0.0.1:58488 PATH_INFO=/nul modifier=0/0 env_keys=25
-11:16:13 uwsgi backend: 127.0.0.1:58490 PATH_INFO=/oversize modifier=0/0 env_keys=25
-11:16:13 uwsgi backend: 127.0.0.1:58492 PATH_INFO=/cr modifier=0/0 env_keys=25
-11:16:13 uwsgi backend: 127.0.0.1:58494 PATH_INFO=/badname modifier=0/0 env_keys=25

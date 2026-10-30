@@ -1,7 +1,0 @@
-== fixed version ==
-Server version: Apache/2.4.52 (Ubuntu)
-Server built:   2026-10-08T19:59:46
-ace7ae371f972f041e1bf43386ce30c9cdb18a98c679e84764381b198c8965c5  /usr/sbin/apache2
-apache2-bin=2.4.52-1ubuntu4.25
-note: Ubuntu 22.04 发行版 2.4.52（含 41773/44224/44790 上游修复）
-modules: /usr/lib/apache2/modules

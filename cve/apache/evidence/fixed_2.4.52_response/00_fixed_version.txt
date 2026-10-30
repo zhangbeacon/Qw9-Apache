@@ -1,7 +1,0 @@
-Server version: Apache/2.4.52 (Ubuntu)
-Server built:   2026-10-08T19:59:46
-ace7ae371f972f041e1bf43386ce30c9cdb18a98c679e84764381b198c8965c5  /usr/sbin/apache2
-a42ac095f0f71a2a51779a52745cbefa85d4fa37c9cf9709f907f48f8321627e  /usr/lib/apache2/modules/mod_proxy_http.so
-ce37acc85efdb34e790c364713736c29aee173fbd1cff242eea6a6de3a19edb2  /usr/lib/apache2/modules/mod_proxy_uwsgi.so
-AH10404: Error reading headers from backend
-AH10124: header size is over the limit allowed by ResponseFieldSize (%d bytes). Bad response header: '%.*s[...]%s'

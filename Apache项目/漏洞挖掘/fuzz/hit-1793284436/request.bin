@@ -1,5 +1,0 @@
---BOUNDARY
-Content-Disposition: form-data; name="file"; filename="a.bin"
-Content-Type: application/octet-stream
-
-AAABOUNDARY--

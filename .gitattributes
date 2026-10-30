@@ -11,7 +11,7 @@
 
 # Evidence/request payloads must retain their original line endings.
 cve/apache/evidence/** -text
-Apache项目/漏洞挖掘/fuzz/** -text
+docs/research/patches/** -text
 *.bin binary
 *.docx binary
 *.pdf binary

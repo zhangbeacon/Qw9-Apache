@@ -1,5 +1,0 @@
-fixed_version=Apache/2.4.52 (Ubuntu) 2.4.52-1ubuntu4.25
-42013_fixed_hit=0
-25690_fixed_hit=0
-22720_fixed_hit=0
-note=0 表示修复版不再命中；三个值均为 0 则负向对照通过

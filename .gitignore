@@ -15,7 +15,7 @@ venv/
 node_modules/
 .pua/
 
-# Runtime artifacts (keep diagnostic and evidence logs)
+# Runtime artifacts
 *.pid
 *.sock
 *.tmp
@@ -31,3 +31,8 @@ Thumbs.db
 /cve/dnsmasq/
 /99_归档/
 /.github-publish-Qw9-Apache/
+
+# Keep the active repository focused; raw runs are reviewed and archived.
+/cve/apache/build/*.log
+/cve/apache/evidence/*
+!/cve/apache/evidence/README.md
