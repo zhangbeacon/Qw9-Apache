@@ -1,0 +1,247 @@
+{
+ "total": 60,
+ "reproduced": 8,
+ "failed": 52,
+ "details": [
+  {
+   "hit": "hit-1793284261",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284264",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284266",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284269",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284271",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284275",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284279",
+   "reproduced": true
+  },
+  {
+   "hit": "hit-1793284283",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284286",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284290",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284293",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284296",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284302",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284304",
+   "reproduced": true
+  },
+  {
+   "hit": "hit-1793284308",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284310",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284314",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284316",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284319",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284323",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284327",
+   "reproduced": true
+  },
+  {
+   "hit": "hit-1793284330",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284334",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284337",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284343",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284346",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284349",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284351",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284355",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284358",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284361",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284363",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284367",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284369",
+   "reproduced": true
+  },
+  {
+   "hit": "hit-1793284373",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284376",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284380",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284382",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284386",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284390",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284392",
+   "reproduced": true
+  },
+  {
+   "hit": "hit-1793284395",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284398",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284402",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284405",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284408",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284413",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284418",
+   "reproduced": true
+  },
+  {
+   "hit": "hit-1793284421",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284425",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284428",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284431",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284436",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284438",
+   "reproduced": true
+  },
+  {
+   "hit": "hit-1793284441",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284445",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284448",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284451",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284454",
+   "reproduced": false
+  },
+  {
+   "hit": "hit-1793284456",
+   "reproduced": true
+  }
+ ]
+}

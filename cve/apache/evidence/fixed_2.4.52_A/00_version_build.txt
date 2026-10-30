@@ -1,0 +1,9 @@
+== 修复版二进制 ==
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2026-10-08T19:59:46
+ace7ae371f972f041e1bf43386ce30c9cdb18a98c679e84764381b198c8965c5  /usr/sbin/apache2
+apache2-bin=2.4.52-1ubuntu4.25
+
+== 说明 ==
+Ubuntu 22.04 发行版 2.4.52-1ubuntu4.25（含 CVE-2021-42013/2022-22720/2023-25690 安全回移）
+对比目标：自编译 pristine Apache/2.4.49（/opt/httpd）

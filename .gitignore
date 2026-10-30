@@ -1,0 +1,33 @@
+# Credentials and private material
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+.credentials*
+
+# Python and tooling caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pua/
+
+# Runtime artifacts (keep diagnostic and evidence logs)
+*.pid
+*.sock
+*.tmp
+*.swp
+core
+core.*
+.DS_Store
+Thumbs.db
+
+# Outside this Apache-only publication
+/cve/_downloads/
+/cve/nginx/
+/cve/dnsmasq/
+/99_归档/
+/.github-publish-Qw9-Apache/

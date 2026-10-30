@@ -1,0 +1,29 @@
+[Thu Oct 29 22:32:44.264697 2026] [core:warn] [pid 8353:tid 140544432277504] (92)Protocol not available: AH00076: Failed to enable APR_TCP_DEFER_ACCEPT
+[Thu Oct 29 22:32:44.279404 2026] [core:warn] [pid 8353:tid 140544432277504] AH00098: pid file /opt/httpd-asan/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 29 22:32:44.282192 2026] [unixd:alert] [pid 8354:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Oct 29 22:32:44.292229 2026] [unixd:alert] [pid 8355:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Oct 29 22:32:44.299088 2026] [unixd:alert] [pid 8359:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Oct 29 22:32:44.303051 2026] [mpm_event:notice] [pid 8353:tid 140544432277504] AH00489: Apache/2.4.49 (Unix) configured -- resuming normal operations
+[Thu Oct 29 22:32:44.303123 2026] [core:notice] [pid 8353:tid 140544432277504] AH00094: Command line: '/opt/httpd-asan/bin/httpd -f /opt/httpd-asan/conf/httpd-44790.conf -D FOREGROUND'
+[Thu Oct 29 22:32:44.307264 2026] [unixd:alert] [pid 8384:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+=================================================================
+[crit] Memory allocation failed, aborting process.
+=================================================================
+[Thu Oct 29 22:32:45.310109 2026] [core:notice] [pid 8353:tid 140544432277504] AH00051: child pid 8355 exit signal Segmentation fault (11), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:45.310362 2026] [core:notice] [pid 8353:tid 140544432277504] AH00051: child pid 8359 exit signal Segmentation fault (11), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:45.310521 2026] [core:notice] [pid 8353:tid 140544432277504] AH00051: child pid 8384 exit signal Abort (6), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:45.312738 2026] [unixd:alert] [pid 8439:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[crit] Memory allocation failed, aborting process.
+[Thu Oct 29 22:32:46.321621 2026] [unixd:alert] [pid 8467:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Oct 29 22:32:46.326086 2026] [core:notice] [pid 8353:tid 140544432277504] AH00051: child pid 8439 exit signal Abort (6), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:46.328965 2026] [unixd:alert] [pid 8471:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[crit] Memory allocation failed, aborting process.
+=================================================================
+[Thu Oct 29 22:32:47.335159 2026] [unixd:alert] [pid 8523:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Oct 29 22:32:47.343114 2026] [unixd:alert] [pid 8531:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Oct 29 22:32:47.349673 2026] [unixd:alert] [pid 8547:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[crit] Memory allocation failed, aborting process.
+[Thu Oct 29 22:32:47.354519 2026] [core:notice] [pid 8353:tid 140544432277504] AH00051: child pid 8467 exit signal Abort (6), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:47.354772 2026] [core:notice] [pid 8353:tid 140544432277504] AH00051: child pid 8471 exit signal Segmentation fault (11), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:47.354809 2026] [core:notice] [pid 8353:tid 140544432277504] AH00051: child pid 8523 exit signal Abort (6), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:47.357483 2026] [unixd:alert] [pid 8574:tid 140544432277504] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive

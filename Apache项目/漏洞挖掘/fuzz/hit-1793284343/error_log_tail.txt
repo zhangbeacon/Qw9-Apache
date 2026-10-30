@@ -1,0 +1,19 @@
+[Thu Oct 29 22:32:21.250244 2026] [core:warn] [pid 6671:tid 140343706519552] (92)Protocol not available: AH00076: Failed to enable APR_TCP_DEFER_ACCEPT
+[Thu Oct 29 22:32:21.260813 2026] [core:warn] [pid 6671:tid 140343706519552] AH00098: pid file /opt/httpd-asan/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 29 22:32:21.263417 2026] [unixd:alert] [pid 6672:tid 140343706519552] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Oct 29 22:32:21.273142 2026] [unixd:alert] [pid 6673:tid 140343706519552] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Oct 29 22:32:21.280746 2026] [unixd:alert] [pid 6677:tid 140343706519552] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Oct 29 22:32:21.284656 2026] [mpm_event:notice] [pid 6671:tid 140343706519552] AH00489: Apache/2.4.49 (Unix) configured -- resuming normal operations
+[Thu Oct 29 22:32:21.284726 2026] [core:notice] [pid 6671:tid 140343706519552] AH00094: Command line: '/opt/httpd-asan/bin/httpd -f /opt/httpd-asan/conf/httpd-44790.conf -D FOREGROUND'
+[Thu Oct 29 22:32:21.288035 2026] [unixd:alert] [pid 6697:tid 140343706519552] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+=================================================================
+=================================================================
+=================================================================
+[Thu Oct 29 22:32:22.291977 2026] [core:notice] [pid 6671:tid 140343706519552] AH00051: child pid 6673 exit signal Segmentation fault (11), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:22.292210 2026] [core:notice] [pid 6671:tid 140343706519552] AH00051: child pid 6677 exit signal Segmentation fault (11), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:22.292360 2026] [core:notice] [pid 6671:tid 140343706519552] AH00051: child pid 6697 exit signal Segmentation fault (11), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:22.294699 2026] [unixd:alert] [pid 6757:tid 140343706519552] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+=================================================================
+[Thu Oct 29 22:32:23.304912 2026] [unixd:alert] [pid 6785:tid 140343706519552] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Oct 29 22:32:23.309550 2026] [core:notice] [pid 6671:tid 140343706519552] AH00051: child pid 6757 exit signal Segmentation fault (11), possible coredump in /opt/httpd-asan
+[Thu Oct 29 22:32:23.312231 2026] [unixd:alert] [pid 6789:tid 140343706519552] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive

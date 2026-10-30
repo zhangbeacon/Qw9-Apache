@@ -1,0 +1,74 @@
+[Fri Oct 30 11:16:13.121424 2026] [core:warn] [pid 1244:tid 140581007329152] (92)Protocol not available: AH00076: Failed to enable APR_TCP_DEFER_ACCEPT
+[Fri Oct 30 11:16:13.122415 2026] [watchdog:debug] [pid 1244:tid 140581007329152] mod_watchdog.c(445): AH010033: Watchdog: Running with WatchdogInterval 1000ms
+[Fri Oct 30 11:16:13.122441 2026] [watchdog:debug] [pid 1244:tid 140581007329152] mod_watchdog.c(454): AH02974: Watchdog: found parent providers.
+[Fri Oct 30 11:16:13.122454 2026] [watchdog:debug] [pid 1244:tid 140581007329152] mod_watchdog.c(500): AH02977: Watchdog: found child providers.
+[Fri Oct 30 11:16:13.122623 2026] [watchdog:debug] [pid 1244:tid 140581007329152] mod_watchdog.c(508): AH02978: Watchdog: Looking for child (_singleton_).
+[Fri Oct 30 11:16:13.122639 2026] [watchdog:debug] [pid 1244:tid 140581007329152] mod_watchdog.c(508): AH02978: Watchdog: Looking for child (_default_).
+[Fri Oct 30 11:16:13.131808 2026] [watchdog:debug] [pid 1249:tid 140581007329152] mod_watchdog.c(559): AH02980: Watchdog: nothing configured?
+[Fri Oct 30 11:16:13.131882 2026] [proxy:debug] [pid 1249:tid 140581007329152] proxy_util.c(2134): AH00925: initializing worker http://127.0.0.1:8093/ shared
+[Fri Oct 30 11:16:13.131915 2026] [proxy:debug] [pid 1249:tid 140581007329152] proxy_util.c(2194): AH00927: initializing worker http://127.0.0.1:8093/ local
+[Fri Oct 30 11:16:13.132006 2026] [proxy:debug] [pid 1249:tid 140581007329152] proxy_util.c(2225): AH00930: initialized pool in child 1249 for (127.0.0.1) min=0 max=25 smax=25
+[Fri Oct 30 11:16:13.132049 2026] [proxy:debug] [pid 1249:tid 140581007329152] proxy_util.c(2134): AH00925: initializing worker proxy:reverse shared
+[Fri Oct 30 11:16:13.132058 2026] [proxy:debug] [pid 1249:tid 140581007329152] proxy_util.c(2194): AH00927: initializing worker proxy:reverse local
+[Fri Oct 30 11:16:13.132086 2026] [proxy:debug] [pid 1249:tid 140581007329152] proxy_util.c(2225): AH00930: initialized pool in child 1249 for (*) min=0 max=25 smax=25
+[Fri Oct 30 11:16:13.132418 2026] [mpm_event:debug] [pid 1249:tid 140581001692736] event.c(2373): AH02471: start_threads: Using epoll (wakeable)
+[Fri Oct 30 11:16:13.134083 2026] [mpm_event:notice] [pid 1244:tid 140581007329152] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Fri Oct 30 11:16:13.134110 2026] [mpm_event:info] [pid 1244:tid 140581007329152] AH00490: Server built: 2026-10-08T19:59:46
+[Fri Oct 30 11:16:13.134133 2026] [core:notice] [pid 1244:tid 140581007329152] AH00094: Command line: '/usr/sbin/apache2 -f /mnt/e/\xe5\xbc\xba\xe7\xbd\x91\xe6\x8b\x9f\xe6\x80\x81/cve/apache/conf/fixed-2.4.52-37436.conf -D FOREGROUND'
+[Fri Oct 30 11:16:13.134142 2026] [core:debug] [pid 1244:tid 140581007329152] log.c(1570): AH02639: Using SO_REUSEPORT: yes (1)
+[Fri Oct 30 11:16:13.134653 2026] [watchdog:debug] [pid 1250:tid 140581007329152] mod_watchdog.c(559): AH02980: Watchdog: nothing configured?
+[Fri Oct 30 11:16:13.134719 2026] [proxy:debug] [pid 1250:tid 140581007329152] proxy_util.c(2134): AH00925: initializing worker http://127.0.0.1:8093/ shared
+[Fri Oct 30 11:16:13.134752 2026] [proxy:debug] [pid 1250:tid 140581007329152] proxy_util.c(2194): AH00927: initializing worker http://127.0.0.1:8093/ local
+[Fri Oct 30 11:16:13.134834 2026] [proxy:debug] [pid 1250:tid 140581007329152] proxy_util.c(2225): AH00930: initialized pool in child 1250 for (127.0.0.1) min=0 max=25 smax=25
+[Fri Oct 30 11:16:13.134879 2026] [proxy:debug] [pid 1250:tid 140581007329152] proxy_util.c(2134): AH00925: initializing worker proxy:reverse shared
+[Fri Oct 30 11:16:13.134888 2026] [proxy:debug] [pid 1250:tid 140581007329152] proxy_util.c(2194): AH00927: initializing worker proxy:reverse local
+[Fri Oct 30 11:16:13.134921 2026] [proxy:debug] [pid 1250:tid 140581007329152] proxy_util.c(2225): AH00930: initialized pool in child 1250 for (*) min=0 max=25 smax=25
+[Fri Oct 30 11:16:13.135204 2026] [mpm_event:debug] [pid 1250:tid 140581001692736] event.c(2373): AH02471: start_threads: Using epoll (wakeable)
+[Fri Oct 30 11:16:13.135443 2026] [watchdog:debug] [pid 1257:tid 140581007329152] mod_watchdog.c(559): AH02980: Watchdog: nothing configured?
+[Fri Oct 30 11:16:13.135540 2026] [proxy:debug] [pid 1257:tid 140581007329152] proxy_util.c(2134): AH00925: initializing worker http://127.0.0.1:8093/ shared
+[Fri Oct 30 11:16:13.135576 2026] [proxy:debug] [pid 1257:tid 140581007329152] proxy_util.c(2194): AH00927: initializing worker http://127.0.0.1:8093/ local
+[Fri Oct 30 11:16:13.135683 2026] [proxy:debug] [pid 1257:tid 140581007329152] proxy_util.c(2225): AH00930: initialized pool in child 1257 for (127.0.0.1) min=0 max=25 smax=25
+[Fri Oct 30 11:16:13.135727 2026] [proxy:debug] [pid 1257:tid 140581007329152] proxy_util.c(2134): AH00925: initializing worker proxy:reverse shared
+[Fri Oct 30 11:16:13.135735 2026] [proxy:debug] [pid 1257:tid 140581007329152] proxy_util.c(2194): AH00927: initializing worker proxy:reverse local
+[Fri Oct 30 11:16:13.135767 2026] [proxy:debug] [pid 1257:tid 140581007329152] proxy_util.c(2225): AH00930: initialized pool in child 1257 for (*) min=0 max=25 smax=25
+[Fri Oct 30 11:16:13.136107 2026] [mpm_event:debug] [pid 1257:tid 140581001692736] event.c(2373): AH02471: start_threads: Using epoll (wakeable)
+[Fri Oct 30 11:16:13.139523 2026] [authz_core:debug] [pid 1250:tid 140580923311680] mod_authz_core.c(843): [client 127.0.0.1:54506] AH01628: authorization result: granted (no directives)
+[Fri Oct 30 11:16:13.139579 2026] [proxy:debug] [pid 1250:tid 140580923311680] mod_proxy.c(1513): [client 127.0.0.1:54506] AH01143: Running scheme http handler (attempt 0)
+[Fri Oct 30 11:16:13.139598 2026] [proxy:debug] [pid 1250:tid 140580923311680] proxy_util.c(2550): AH00942: http: has acquired connection for (127.0.0.1)
+[Fri Oct 30 11:16:13.139612 2026] [proxy:debug] [pid 1250:tid 140580923311680] proxy_util.c(2613): [client 127.0.0.1:54506] AH00944: connecting http://127.0.0.1:8093/control to 127.0.0.1:8093
+[Fri Oct 30 11:16:13.139710 2026] [proxy:debug] [pid 1250:tid 140580923311680] proxy_util.c(2836): [client 127.0.0.1:54506] AH00947: connected /control to 127.0.0.1:8093
+[Fri Oct 30 11:16:13.140012 2026] [proxy:debug] [pid 1250:tid 140580923311680] proxy_util.c(3302): AH02824: http: connection established with 127.0.0.1:8093 (127.0.0.1)
+[Fri Oct 30 11:16:13.140071 2026] [proxy:debug] [pid 1250:tid 140580923311680] proxy_util.c(3488): AH00962: http: connection complete to 127.0.0.1:8093 (127.0.0.1)
+[Fri Oct 30 11:16:13.140517 2026] [proxy:debug] [pid 1250:tid 140580923311680] proxy_util.c(2565): AH00943: http: has released connection for (127.0.0.1)
+[Fri Oct 30 11:16:13.197653 2026] [authz_core:debug] [pid 1249:tid 140580923311680] mod_authz_core.c(843): [client 127.0.0.1:54508] AH01628: authorization result: granted (no directives)
+[Fri Oct 30 11:16:13.197716 2026] [proxy:debug] [pid 1249:tid 140580923311680] mod_proxy.c(1513): [client 127.0.0.1:54508] AH01143: Running scheme http handler (attempt 0)
+[Fri Oct 30 11:16:13.197735 2026] [proxy:debug] [pid 1249:tid 140580923311680] proxy_util.c(2550): AH00942: http: has acquired connection for (127.0.0.1)
+[Fri Oct 30 11:16:13.197748 2026] [proxy:debug] [pid 1249:tid 140580923311680] proxy_util.c(2613): [client 127.0.0.1:54508] AH00944: connecting http://127.0.0.1:8093/control to 127.0.0.1:8093
+[Fri Oct 30 11:16:13.197863 2026] [proxy:debug] [pid 1249:tid 140580923311680] proxy_util.c(2836): [client 127.0.0.1:54508] AH00947: connected /control to 127.0.0.1:8093
+[Fri Oct 30 11:16:13.198210 2026] [proxy:debug] [pid 1249:tid 140580923311680] proxy_util.c(3302): AH02824: http: connection established with 127.0.0.1:8093 (127.0.0.1)
+[Fri Oct 30 11:16:13.198273 2026] [proxy:debug] [pid 1249:tid 140580923311680] proxy_util.c(3488): AH00962: http: connection complete to 127.0.0.1:8093 (127.0.0.1)
+[Fri Oct 30 11:16:13.198892 2026] [proxy:debug] [pid 1249:tid 140580923311680] proxy_util.c(2565): AH00943: http: has released connection for (127.0.0.1)
+[Fri Oct 30 11:16:13.199833 2026] [authz_core:debug] [pid 1249:tid 140580906403392] mod_authz_core.c(843): [client 127.0.0.1:54510] AH01628: authorization result: granted (no directives)
+[Fri Oct 30 11:16:13.199922 2026] [proxy:debug] [pid 1249:tid 140580906403392] mod_proxy.c(1513): [client 127.0.0.1:54510] AH01143: Running scheme http handler (attempt 0)
+[Fri Oct 30 11:16:13.199936 2026] [proxy:debug] [pid 1249:tid 140580906403392] proxy_util.c(2550): AH00942: http: has acquired connection for (127.0.0.1)
+[Fri Oct 30 11:16:13.199946 2026] [proxy:debug] [pid 1249:tid 140580906403392] proxy_util.c(2613): [client 127.0.0.1:54510] AH00944: connecting http://127.0.0.1:8093/nul to 127.0.0.1:8093
+[Fri Oct 30 11:16:13.199954 2026] [proxy:debug] [pid 1249:tid 140580906403392] proxy_util.c(2836): [client 127.0.0.1:54510] AH00947: connected /nul to 127.0.0.1:8093
+[Fri Oct 30 11:16:13.200053 2026] [proxy:debug] [pid 1249:tid 140580906403392] proxy_util.c(3137): AH00951: http: backend socket is disconnected.
+[Fri Oct 30 11:16:13.200323 2026] [proxy:debug] [pid 1249:tid 140580906403392] proxy_util.c(3302): AH02824: http: connection established with 127.0.0.1:8093 (127.0.0.1)
+[Fri Oct 30 11:16:13.200352 2026] [proxy:debug] [pid 1249:tid 140580906403392] proxy_util.c(3488): AH00962: http: connection complete to 127.0.0.1:8093 (127.0.0.1)
+[Fri Oct 30 11:16:13.201250 2026] [core:debug] [pid 1249:tid 140580906403392] protocol.c(511): NULL bytes in header (18 bytes)
+[Fri Oct 30 11:16:13.201275 2026] [core:debug] [pid 1249:tid 140580906403392] protocol.c(511): X-Bad: hello.wor 582d4261643a2068656c6c6f00776f72
+[Fri Oct 30 11:16:13.201283 2026] [core:debug] [pid 1249:tid 140580906403392] protocol.c(511): ld               6c64                            
+[Fri Oct 30 11:16:13.201291 2026] [proxy_http:warn] [pid 1249:tid 140580906403392] (22)Invalid argument: [client 127.0.0.1:54510] AH10404: Error reading headers from backend
+[Fri Oct 30 11:16:13.201316 2026] [proxy_http:warn] [pid 1249:tid 140580906403392] [client 127.0.0.1:54510] AH01106: bad HTTP/1.1 header returned by /nul (GET)
+[Fri Oct 30 11:16:13.201323 2026] [proxy:debug] [pid 1249:tid 140580906403392] proxy_util.c(2565): AH00943: http: has released connection for (127.0.0.1)
+[Fri Oct 30 11:16:13.202098 2026] [authz_core:debug] [pid 1249:tid 140580889495104] mod_authz_core.c(843): [client 127.0.0.1:54512] AH01628: authorization result: granted (no directives)
+[Fri Oct 30 11:16:13.202138 2026] [proxy:debug] [pid 1249:tid 140580889495104] mod_proxy.c(1513): [client 127.0.0.1:54512] AH01143: Running scheme http handler (attempt 0)
+[Fri Oct 30 11:16:13.202148 2026] [proxy:debug] [pid 1249:tid 140580889495104] proxy_util.c(2550): AH00942: http: has acquired connection for (127.0.0.1)
+[Fri Oct 30 11:16:13.202157 2026] [proxy:debug] [pid 1249:tid 140580889495104] proxy_util.c(2613): [client 127.0.0.1:54512] AH00944: connecting http://127.0.0.1:8093/oversize to 127.0.0.1:8093
+[Fri Oct 30 11:16:13.202165 2026] [proxy:debug] [pid 1249:tid 140580889495104] proxy_util.c(2836): [client 127.0.0.1:54512] AH00947: connected /oversize to 127.0.0.1:8093
+[Fri Oct 30 11:16:13.202732 2026] [proxy:debug] [pid 1249:tid 140580889495104] proxy_util.c(3302): AH02824: http: connection established with 127.0.0.1:8093 (127.0.0.1)
+[Fri Oct 30 11:16:13.202758 2026] [proxy:debug] [pid 1249:tid 140580889495104] proxy_util.c(3488): AH00962: http: connection complete to 127.0.0.1:8093 (127.0.0.1)
+[Fri Oct 30 11:16:13.203508 2026] [proxy_http:warn] [pid 1249:tid 140580889495104] (28)No space left on device: [client 127.0.0.1:54512] AH10124: header size is over the limit allowed by ResponseFieldSize (8192 bytes). Bad response header: 'X-Long: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[...]AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
+[Fri Oct 30 11:16:13.203560 2026] [proxy_http:warn] [pid 1249:tid 140580889495104] [client 127.0.0.1:54512] AH01106: bad HTTP/1.1 header returned by /oversize (GET)
+[Fri Oct 30 11:16:13.203578 2026] [proxy:debug] [pid 1249:tid 140580889495104] proxy_util.c(2565): AH00943: http: has released connection for (127.0.0.1)

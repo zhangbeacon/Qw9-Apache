@@ -1,0 +1,5 @@
+malicious http backend listening on 127.0.0.1:8093
+11:16:13 backend: request from 127.0.0.1:54507 -> GET /control HTTP/1.1
+11:16:13 backend: request from 127.0.0.1:54509 -> GET /control HTTP/1.1
+11:16:13 backend: request from 127.0.0.1:54511 -> GET /nul HTTP/1.1
+11:16:13 backend: request from 127.0.0.1:54513 -> GET /oversize HTTP/1.1

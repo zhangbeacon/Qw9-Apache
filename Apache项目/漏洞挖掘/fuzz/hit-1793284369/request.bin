@@ -1,0 +1,5 @@
+--XyZde18
+Content-Disposition: form-data; name="file"; filename="a.bin"
+Content-Type: application/octet-stream
+
+XyZde18--

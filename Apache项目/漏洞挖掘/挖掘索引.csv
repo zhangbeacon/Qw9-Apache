@@ -1,0 +1,12 @@
+﻿CVE,修复版本,对比版本,涉及文件,hunk数,新增行,删除行
+CVE-2021-41773,2.4.50,2.4.49,server/util.c;server/request.c,4,15,5
+CVE-2021-42013,2.4.51,2.4.50,server/util.c,6,34,24
+CVE-2021-44224,2.4.52,2.4.51,modules/proxy/proxy_util.c;modules/proxy/mod_proxy.c,22,83,31
+CVE-2021-44790,2.4.52,2.4.51,modules/lua/lua_request.c,1,1,0
+CVE-2022-22719,2.4.53,2.4.52,modules/lua/lua_request.c,3,20,13
+CVE-2022-22720,2.4.53,2.4.52,modules/http/http_filters.c,1,36,33
+CVE-2022-23943,2.4.53,2.4.52,modules/filters/mod_sed.c,5,24,16
+CVE-2022-37436,2.4.55,2.4.54,modules/proxy/mod_proxy_http.c,6,27,19
+CVE-2023-25690,2.4.56,2.4.55,modules/mappers/mod_rewrite.c;modules/proxy/mod_proxy.c;modules/proxy/mod_proxy_http.c,14,64,13
+CVE-2023-27522,2.4.56,2.4.55,modules/proxy/mod_proxy_uwsgi.c,2,35,14
+CVE-2024-38474,2.4.60,2.4.59,modules/mappers/mod_rewrite.c,27,162,41
