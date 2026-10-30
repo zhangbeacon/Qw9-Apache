@@ -1,0 +1,19 @@
+# Preserve original bytes unless a source-text rule is explicit.
+* -text
+*.md text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.conf text eol=lf
+*.lua text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Evidence/request payloads must retain their original line endings.
+cve/apache/evidence/** -text
+docs/research/patches/** -text
+*.bin binary
+*.docx binary
+*.pdf binary
+*.zip binary
+*.diff -text
